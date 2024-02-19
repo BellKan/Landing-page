@@ -1,0 +1,13 @@
+:root {
+    /* Definindo variáveis para cores */
+    --cor-primaria: #0077b5; /* Azul do LinkedIn */
+    --cor-secundaria: #ffffff; /* Branco */
+    --cor-fundo: #f3f2ef; /* Cinza claro */
+  
+    /* Definindo variáveis para fontes */
+    --fonte-titulo: Arial, sans-serif;
+    --fonte-corpo: Arial, sans-serif;
+  
+    /* Definindo outras variáveis conforme necessário */
+    --espacamento: 20px;
+  }

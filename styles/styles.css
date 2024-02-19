@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: var(--cor-primaria);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--cor-fundo);
+}
+nav>a{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    text-decoration: none;
+    color: var(--cor-primaria);
+}
+nav>a .in{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
+    border-radius: 5px;
+    width: 24px;
+    height: 28px;
+    text-align: center;
+    margin: auto;
+}
