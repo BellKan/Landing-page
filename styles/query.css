@@ -1,0 +1,14 @@
+/*computadores*/
+@media screen and (min-width: 1024px) {
+    
+}
+
+/*tablets*/
+@media  screen and (min-width: 767px) and (max-width: 1023px) {
+    
+}
+
+/*Celulares*/
+@media screen and (max-width: 767px) {
+    
+}
