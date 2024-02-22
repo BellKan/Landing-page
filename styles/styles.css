@@ -56,6 +56,9 @@ nav>ul,li{
     flex-wrap: wrap;
     margin: 0 40px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--cor-primaria);
 }
 .btn .btn-1{
     display: flex;
@@ -75,6 +78,7 @@ nav>ul,li{
     font-family: var(--font-titulo);
     font-size: 14px;
     font-weight: bold;
+    margin-left: 200px;
 }
 .btn-1{
     background-color: rgb(201, 201, 201);
@@ -86,14 +90,94 @@ nav>ul,li{
     font-family: var(--font-titulo);
     font-size: 14px;
     font-weight: bold;
+    margin-right: 50px;
 }
 /*main*/
 main{
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
     margin: auto;
+}
+.mae{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 450px;
+    gap: 50px;
+   /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+}
+.parente{
+    margin: auto;
+    margin-left: 400px;
+    padding: 10px;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+}
+.filho{
+    margin: auto;
+    padding: 10px;
+    background-color: var(--cor-fundo);
+    border-radius: 8px;
+}
+.castro_auternativo{
+    display: grid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-top: -100px;
+    margin-right: 430px;
+}
+.btn-2{
+    margin: auto;
+    margin-right: -50px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--cor-fundo);
+    font-weight: bold;
+    padding: 4px;
+}
+.email{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+.senha{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+.nome{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+.data{
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.7);
+}
+h1{
+    text-align: center;
+    padding: 10px;
 }
